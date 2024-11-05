@@ -73,11 +73,12 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'socialnetworkvr-server',
-        'USER': 'rfhjyvlrba',
-        'PASSWORD': 'U4Lwhj9h$Wl8fMqq',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'socialnetworkvre',
+        'USER': 'iopizhrblb',
+        'PASSWORD': 'c7mW4$JXN9RllJwq',
+        'HOST': 'socialnetworkvre-server.postgres.database.azure.com',
+        'PORT': '5432',
+       
     }
 }
 
